@@ -9,16 +9,23 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief This project helps to find min, max, mean, median, stastics of given single dimensional array
  *
- * <Add Extended Description Here>
+ * Commit1: Created empty function 
+ * main() - The main entry point for your program
+ * print_statistics() - A function that prints the statistics of an array including minimum, maximum, mean, and median.
+ * print_array() -  Given an array of data and a length, prints the array to the screen
+ * find_median() - Given an array of data and a length, returns the median value
+ * find_mean() -  Given an array of data and a length, returns the mean
+ * find_maximum() -  Given an array of data and a length, returns the maximum
+ * find_minimum() -  Given an array of data and a length, returns the minimum
+ * sort_array() - Given an array of data and a length, sorts the array from largest to smallest.  (The zeroth Element should be the largest value, and the last element (n-1) should be the smallest value. )
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Saravanakumar Shunmugam
+ * @date 14May2023
  *
  */
-
 
 
 #include <stdio.h>
@@ -26,6 +33,39 @@
 
 /* Size of the Data Set */
 #define SIZE (40)
+
+/* Function definations */
+void sort_array(unsigned char array[], unsigned int size) {
+      printf("\n\rShort array");
+}
+void print_statistics(int med, int mean, int max, int min) {
+       printf("\n\rMedian = %i; \t Mean = %i; \t Maximum = %i; \t Minimum = %i\n", med, mean, max, min);
+}
+
+void print_array(unsigned char array[], unsigned int size) {
+     printf("\n\rArray list");
+}
+ 
+unsigned char find_maximum(unsigned char array[], unsigned int size) {
+       unsigned char maxValue = 0;
+	   return maxValue;
+}
+
+unsigned char find_minimum(unsigned char array[], unsigned int size) {
+       unsigned char minValue = 0;
+       return minValue;
+}
+
+unsigned char find_median(unsigned char array[], unsigned int size) {
+       unsigned char medianValue = 0;
+       return medianValue;
+}
+ 
+unsigned char find_mean(unsigned char array[], unsigned int size) {
+       unsigned char meanValue = 0;
+
+       return meanValue;
+ }
 
 void main() {
 
@@ -39,5 +79,3 @@ void main() {
   /* Statistics and Printing Functions Go Here */
 
 }
-
-/* Add other Implementation File Code Here */
